@@ -56,10 +56,6 @@ section h2 a {
   background: #131313;
   font-size: 13px;
   height: 30px;
-  position: sticky;
-  top: 0;
-  left: 0;
-  /* z-index: 20; */
 }
 
 .top-nav li a,
@@ -71,14 +67,14 @@ section h2 a {
   color: #ffffff;
 }
 
-nav .sticky-nav {
+.sticky-nav  {
   background: #ffffff;
   font-size: 14px;
   height: 50px;
-  /* position: sticky;
+  position: sticky;
   top: 0;
   left: 0;
-  z-index: 20; */
+  z-index: 99;
 }
 
 .sticky-nav li a:hover {
