@@ -27,12 +27,16 @@ li {
 .flex-alt {
   display: flex;
   justify-content: flex-start;
-  align-items:s;
 }
 
-/* .cover {
-  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%);
-} */
+.center {
+  margin: 80px auto;
+  max-width: 1180px;
+}
+
+section h2 a {
+  color: #f42;
+}
 
 /* Navigation */
 .top-nav,
@@ -52,6 +56,10 @@ li {
   background: #131313;
   font-size: 13px;
   height: 30px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* z-index: 20; */
 }
 
 .top-nav li a,
@@ -63,11 +71,14 @@ li {
   color: #ffffff;
 }
 
-.sticky-nav {
+nav .sticky-nav {
   background: #ffffff;
   font-size: 14px;
   height: 50px;
-  position: sticky;
+  /* position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 20; */
 }
 
 .sticky-nav li a:hover {
@@ -86,7 +97,7 @@ li {
 /* Cover Story Section */
 .cover-story-container {
   margin: 0 0.75rem;
-  width: calc(100%-20px);
+  padding: 10px;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto;
@@ -141,7 +152,7 @@ header {
 header h5,
 header h2,
 header ul {
-  margin: 1rem;
+  margin: 0.80rem;
 }
 
 .cover header h5 {
@@ -150,7 +161,7 @@ header ul {
 }
 
 .cover:first-child header h2 {
-  font-size: 56px;
+  font-size: 50px;
 }
 
 .cover header a {
@@ -161,4 +172,49 @@ header ul {
   margin-right: 0.50rem;
   font-size: 12px;
   color: #999999;
+}
+
+/* Latest News Section */
+.latest-news h2 {
+  margin-bottom: 1.3rem;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.latest-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(224px,270px));
+  justify-content: center;
+  grid-gap: 1.5rem;
+  margin: 0 1rem;
+}
+
+.latest-item {
+  height: 227px;
+}
+
+.latest-item a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.latest-item a img {
+  width: 100%;
+  height: 130px
+}
+
+.latest-item a  h4 {
+  margin: 0.50rem 0;
+}
+
+.latest-item ul li,
+.latest-item ul li a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaa;
+  padding-right: 0.40rem;
+  text-align: center;
 }
