@@ -38,6 +38,13 @@ section h2 a {
   color: #f42;
 }
 
+section h2 {
+  margin-bottom: 1.3rem;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
 /* Navigation */
 .top-nav,
 .sticky-nav {
@@ -176,13 +183,6 @@ header ul {
 }
 
 /* Latest News Section */
-.latest-news h2 {
-  margin-bottom: 1.3rem;
-  font-size: 26px;
-  font-weight: 700;
-  margin-left: 20px;
-}
-
 .latest-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(224px,270px));
@@ -213,9 +213,12 @@ header ul {
 
 .latest-item ul li,
 .latest-item ul li a {
+  margin-right: 0.20rem;
   font-size: 13px;
   font-weight: 400;
   color: #aaa;
-  padding-right: 0.40rem;
-  text-align: center;
+}
+
+.latest-item ul {
+  align-items: baseline;
 }
