@@ -318,3 +318,136 @@ section h2 a:hover,
   margin-top: 0.75rem;
 }
 
+/* Categories Section */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 1.5rem;
+  margin: 80px auto;
+  max-width: 1180px;
+}
+
+.categories-items h2 {
+  margin-left: 0px;
+}
+
+
+.categories-header {
+  height: 270px;
+  padding-top: 48%;
+  display: grid;
+  flex-direction: column;
+  align-content: flex-end;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.categories-header h5,
+.categories-header h2,
+.categories-header ul {
+  margin: 0 0.80rem;
+}
+
+.categories-header h5 {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.categories-header h2 a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.categories-header h2 a:hover {
+  color: #fff;
+  text-decoration: underline rgba(255,255,255,0.5);
+}
+
+.categories-header ul li {
+  font-size: 12px;
+  color: #999999;
+  margin-right: 0.50rem;
+}
+
+.categories-header ul li a {
+  color: #999999;
+}
+
+.categories-header ul li a:hover {
+  color: #fff;
+}
+
+.categories-latest {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background: rgba(255, 68, 34, 0.08);
+}
+
+.categories-latest-content {
+  padding:0.75rem ;
+  color: #f42;
+}
+
+.categories-latest-content h5 {
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 0.50rem;
+}
+
+.categories-latest-content h4 a {
+  font-size: 14px;
+  color: #f42;
+}
+
+.categories-latest-content h4 a:hover {
+  text-decoration: underline rgba(255, 68, 34, 0.30) ;
+}
+.categories-latest-image img {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.20rem;
+  object-fit: cover;
+}
+
+.categories-latest-more li {
+  margin: 0.50rem 0;
+  padding: 6px 0 6px 14px;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+  line-height: 1.5;
+  position: relative;
+  display: block;
+}
+
+.categories-latest-more  li:before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: block;
+  content: "";
+  height: 4px;
+  width: 4px;
+  background-color: #f42;
+  border-radius: 50%;
+}
+
+.categories-latest-more li a {
+  color: #555555;
+}
+
+.cat-app {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-app.jpg);
+  background-size: cover;
+}
+
+.cat-gear {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-gear.jpg);
+  background-size: cover;
+}
+
+.cat-tech {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-tech.png);
+  background-size: cover;
+}
+
