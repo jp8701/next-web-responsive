@@ -433,7 +433,11 @@ section h2 a:hover,
 }
 
 .categories-latest-more li a {
-  color: #555555;
+  color: #aaa;
+}
+
+.categories-latest-more li a:hover {
+  color: #000;
 }
 
 .cat-app {
@@ -451,3 +455,27 @@ section h2 a:hover,
   background-size: cover;
 }
 
+.cat-creative {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-creative.png);
+  background-size: cover;
+}
+
+.cat-podium {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-podium.png);
+  background-size: cover;
+}
+
+.cat-insights {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-insights.jpeg);
+  background-size: cover;
+}
+
+.cat-launch {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-launch.jpg);
+  background-size: cover;
+}
+
+.cat-distract {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 80%), url(./img/cat-deistract.jpg);
+  background-size: cover;
+}
