@@ -546,4 +546,75 @@ section h2 a:hover,
   font-size: 14px;
   color: #555555;
 }
+/* Footer Section */
+.footer {
+  text-align: center;
+}
 
+.footer-links {
+  background: #131313;
+  padding: 2rem 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-links-social {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links-social a {
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  padding: 0.50rem;
+  margin-right: 1rem;
+}
+
+.footer-logo {
+  color: #fff;
+  width: 16px;
+  height: 16px;
+}
+
+.footer-links-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links-menu li {
+  margin-top: 1.5rem;
+}
+
+.footer-links-menu a {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #aaa;
+  margin-right: 1rem;
+}
+
+.footer-legal {
+  background: #000;
+  padding: 2rem 0;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.footer-legal-TNW {
+ height: 12px;
+ width: 40px;
+}
+
+.footer-legal-stackpath {
+  height: 9px;
+  width: 60px;
+}
+
+b {
+  color: #f42
+}
